@@ -1,7 +1,7 @@
 # TeleHealth+ 🏥
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Vite](https://img.shields.io/badge/Vite-4-purple)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3-38B2AC)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.0-38B2AC)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## 🌟 Plataforma Integral de Telemedicina y Bienestar Digital
