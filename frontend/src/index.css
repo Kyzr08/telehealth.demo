@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+:root {
+  /* Gradientes */
+  --gradient-button: linear-gradient(90deg, #0aa6b7 50%, #22c1c3 80%, #a0f0f3 100%);
+
+  /* Navbar */
+  --navbar-bg: rgba(255, 255, 255, 0.9); /* semi-transparente */
+  --navbar-text: #0aa6b7; /* logo turquesa oscuro */
+  --navbar-link: #475569; /* texto de los links */
+  --navbar-link-hover: #0aa6b7; /* hover links */
+  --navbar-dropdown-bg: #ffffff;
+  --navbar-dropdown-hover: #e0f7fa;
+  --navbar-dropdown-text: #475569;
+
+  /* Home y otros */
+  --bg-main: #f0fafd; /* fondo general */
+  --text-main: #1e293b; /* títulos */
+  --text-sub: #64748b; /* subtítulos */
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden; /* Evita que el scroll afecte al header o cambie el ancho */
+}
+
+#root {
+  height: 100%;
+}
+
+.app-scroll {
+  height: 100vh;
+  overflow-y: auto; /* Scroll interno */
+  scroll-behavior: smooth;
+}
+
+.app-scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+.app-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.app-scroll::-webkit-scrollbar-thumb {
+  background: rgba(10, 166, 183, 0.342);
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(10, 166, 183, 0.3);
+  transition: all 0.3s ease;
+}
+
+.app-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(10, 166, 183, 0.7);
+  box-shadow: 0 0 10px rgba(10, 166, 183, 0.5);
+}
